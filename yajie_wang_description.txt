@@ -1,0 +1,15 @@
+Method Description：
+I mainly use the ensemble learning method, based on the user-based CF， item-based CF, lsh+ item-based CF and machine learning. In the homework, I found that the accuracy of CF is not good. So I add a way that use the machine learning method to extract feature values from other JSON files. After testing a variety of machine learning methods, I found that linear regression can get the highest accuracy, and finally combine all way to train the model, I use linear regression to train the model to get better accuracy.
+
+Error Distribution:
+>=0 and <1:  101521
+>=1 and <2:  33621
+>=2 and <3:  6174
+>=3 and <4:  722
+>=4:  6
+
+RMSE: 
+0.9812978453905323
+
+Execution Time: 
+312.09s
